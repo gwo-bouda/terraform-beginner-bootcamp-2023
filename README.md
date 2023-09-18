@@ -1,6 +1,6 @@
 # Terraform Beginner Bootcamp 2023
 
-## Semantic versioning
+## Semantic versioning :mage:
 [semver.otg](https://semver.org/)
 
 Given a version number **MAJOR.MINOR.PATCH**, increment the:
