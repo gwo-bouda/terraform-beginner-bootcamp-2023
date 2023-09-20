@@ -45,3 +45,29 @@ An error was display concerning deprecated gpg key we notice that bash scripts s
 - Easier debug and prevent manual installation of terraform cli
 - better portability 
 - this bash script is located -> [./bin/install_terraform_cli](./bin/install_terraform_cli)
+
+### AWS CLI INSTALLATION
+
+AWS CLI is installed for this project via the bash script /bin/install_aws_cli
+[install aws cli](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
+
+### AWS CLI ENV VARS
+[aws cli env vars](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html)
+```
+$ export AWS_ACCESS_KEY_ID=''
+$ export AWS_SECRET_ACCESS_KEY=''
+$ export AWS_DEFAULT_REGION='ca-central-1'
+```
+we can check if we're log into aws tenant with -> 
+```sh
+aws sts get-caller-identity
+```
+
+if successful a json payload is shown
+```json
+{
+"userId":
+"Account":
+"Arn":
+ }
+ ```
