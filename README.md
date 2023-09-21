@@ -82,4 +82,16 @@ if successful a json payload is shown
  ### Terraform console
   - All terraform commands are seen by typing ```Terraform ```
 
-  
+ ### Terraform Amazon Provider create S3 bucket
+ -> [S3 Bucket](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket)
+ **N.B** add an error in main.tf indicating that "tags" was not recognized.
+ ```JSON
+ resource "aws_s3_bucket" "example" {
+  bucket = "my-tf-test-bucket"
+
+  tags = {
+    Name        = "My bucket"
+    Environment = "Dev"
+  }
+}
+```
