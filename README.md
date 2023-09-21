@@ -71,3 +71,15 @@ if successful a json payload is shown
 "Arn":
  }
  ```
+
+ ## Terraform basic
+
+ ### Terraform registry
+ Terraform sources their providers and module are located at [registry.terrafor.io](https://registry.terraform.io/)
+ - **Provider** is an interface to APIS that allow to create ressource in terraform
+ - **Modules** are templates to terraform code /share/modular/portable
+
+ ### Terraform console
+  - All terraform commands are seen by typing ```Terraform ```
+
+  
