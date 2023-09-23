@@ -95,3 +95,16 @@ if successful a json payload is shown
   }
 }
 ```
+
+### Issues with terraform cloud login and gitpod
+We must create the file manually -> touch /home/gitpod/.terraform.d/credentials.tfrc.json
+and insert this code ->
+```json
+ "credentials": {
+    "app.terraform.io": {
+      "token": "key"
+    }
+  }
+}
+```
+
