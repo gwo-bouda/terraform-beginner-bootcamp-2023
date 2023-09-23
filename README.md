@@ -107,4 +107,4 @@ and insert this code ->
   }
 }
 ```
-
+We have automated the processes using bash script [bin/generate_tfrc_credentials](/bin/generate_tfrc_credentials)
