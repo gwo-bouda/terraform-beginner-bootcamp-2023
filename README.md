@@ -1,5 +1,10 @@
 # Terraform Beginner Bootcamp 2023
 
+## Table of content
+
+- [Semantic Versioning](#semantic-versioning)
+- [Install the Terraform CLI](#install-the-terraform-cli-for-linux)
+  - [Consideration with the Terraform CLI changes](#consideration-for-linux-disto)
 ## Semantic versioning :mage:
 [semver.otg](https://semver.org/)
 
@@ -108,3 +113,4 @@ and insert this code ->
 }
 ```
 We have automated the processes using bash script [bin/generate_tfrc_credentials](/bin/generate_tfrc_credentials)
+
