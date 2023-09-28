@@ -30,6 +30,7 @@ Given a version number **MAJOR.MINOR.PATCH**, increment the:
 
 ### **GITPOD CONFIGURE WORKSPACES**
 [GITPOD WORKSPACE CONF](https://www.gitpod.io/docs/configure/workspaces)
+
 [TASKS](https://www.gitpod.io/docs/configure/workspaces/tasks)
 
 ### **CHMOD**
