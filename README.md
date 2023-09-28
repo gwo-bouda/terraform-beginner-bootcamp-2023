@@ -1,10 +1,21 @@
 # Terraform Beginner Bootcamp 2023
+## Table of contents
+- [Terraform Beginner Bootcamp 2023](#terraform-beginner-bootcamp-2023)
+  * [Semantic versioning :mage:](#semantic-versioning--mage-)
+    + [**INSTALL THE TERRAFORM CLI FOR LINUX**](#--install-the-terraform-cli-for-linux--)
+    + [**GITPOD CONFIGURE WORKSPACES**](#--gitpod-configure-workspaces--)
+    + [**CHMOD**](#--chmod--)
+    + [**Consideration for linux disto**](#--consideration-for-linux-disto--)
+  * [Refactoring bash scripts](#refactoring-bash-scripts)
+    + [AWS CLI INSTALLATION](#aws-cli-installation)
+    + [AWS CLI ENV VARS](#aws-cli-env-vars)
+  * [Terraform basic](#terraform-basic)
+    + [Terraform registry](#terraform-registry)
+    + [Terraform console](#terraform-console)
+    + [Terraform Amazon Provider create S3 bucket](#terraform-amazon-provider-create-s3-bucket)
+    + [Issues with terraform cloud login and gitpod](#issues-with-terraform-cloud-login-and-gitpod)
 
-## Table of content
 
-- [Semantic Versioning](#semantic-versioning)
-- [Install the Terraform CLI](#install-the-terraform-cli-for-linux)
-  - [Consideration with the Terraform CLI changes](#consideration-for-linux-disto)
 ## Semantic versioning :mage:
 [semver.otg](https://semver.org/)
 
