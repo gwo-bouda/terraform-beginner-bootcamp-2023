@@ -40,3 +40,16 @@ This is the default file to load TF variable in bulk.
 ### auto.tfvars
 
 ### order of TF variables
+
+
+## Configuration drift
+
+### Fix missing resources
+``` terraform import aws_s3_bucket.website_bucket```
+[aws s3 bucket import](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket#import)
+
+[TF import](https://developer.hashicorp.com/terraform/cli/import)
+
+### Fix manual configuration
+If cloud resources are deleted or modified manually
+Run tf plan again to put back infra back to previous state
