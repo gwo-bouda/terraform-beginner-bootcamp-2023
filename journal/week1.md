@@ -53,3 +53,18 @@ This is the default file to load TF variable in bulk.
 ### Fix manual configuration
 If cloud resources are deleted or modified manually
 Run tf plan again to put back infra back to previous state
+
+### FIx using tf refresh
+[TF refresh cmd](https://developer.hashicorp.com/terraform/cli/commands/refresh)
+
+## Terraform Module Source
+In main.tf source the modules ->
+```
+module "terrahouse_aws" {
+  source = "./modules/terrahouse_aws"
+  user_uuid = var.user_uuid
+  bucket_name = var.bucket_name
+}
+```
+[TF Module Source](https://developer.hashicorp.com/terraform/language/modules/sources)
+
