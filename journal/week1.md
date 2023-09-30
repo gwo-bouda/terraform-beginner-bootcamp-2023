@@ -162,3 +162,12 @@ We use the jsonencode to create/convert the policy to json within tf files.
 ```
 
 [jsonencode](https://developer.hashicorp.com/terraform/language/functions/jsonencode)
+
+### changing the lifecycle rule of resources
+[Lifecycle rule](https://developer.hashicorp.com/terraform/language/meta-arguments/lifecycle)
+
+### Terraform Data
+
+ You can use terraform_data's behavior of planning an action each time input changes to indirectly use a plain value to trigger replacement with replace_triggered_by.
+
+https://developer.hashicorp.com/terraform/language/resources/terraform-data
