@@ -14,12 +14,12 @@ terraform {
   #    name = "terra-house-1"
   #  }
   #}
- # cloud {
- #   organization = "TerraformBootcamp2023_FD"
- #   workspaces {
- #     name = "terra-house-1"
- #   }
- # }
+  cloud {
+    organization = "TerraformBootcamp2023_FD"
+    workspaces {
+      name = "terra-house-1"
+    }
+  }
  }
 
 provider "terratowns" {
